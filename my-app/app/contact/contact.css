@@ -11,9 +11,13 @@
     margin-bottom: 20px;
     text-align: center;
     color: orange;
-    margin-left: 100px;
+    margin-left: 500px;
     
   }
+  .forma {
+    height: 100%;
+    width: 100%;
+    }
   
   form {
     margin-top: 20px;
@@ -24,7 +28,7 @@
     margin-bottom: 15px;
     color:aliceblue ;
   width: 100%;
-  margin-left: 300px; /* hna modification ta3 la case*/
+  margin-left: 50%; /* hna modification ta3 la case*/
   
   }
   
@@ -57,19 +61,22 @@
     border: none;
     font-size: 16px;
     cursor: pointer;
-    margin-left: 500px;
+    margin-left: 50%;
   border-radius: 5px;
   text-align: center;
   
   }
   
-  .forma {
-  height: 500px;
-  width: 500px;
-  }
+ 
   
   
   button:hover {
     background-color: orangered;
   }
   
+  .success-message {
+    color: rgb(0, 255, 0);
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }

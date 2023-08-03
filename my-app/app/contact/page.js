@@ -97,15 +97,7 @@ function Contact() {
         <form className="forma" onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="name">Nom :</label>
-            <input
-              type="text"
-              id="name"
-              name="nom"
-              placeholder="Votre nom"
-              value={state.nom}
-              onChange={handleChange}
-              className={errors.nom !== '' ? 'is-invalid' : ''}
-            />
+            <input type="text" id="name" name="nom" placeholder="Votre nom"  value={state.nom} onChange={handleChange} className={errors.nom !== '' ? 'is-invalid' : ''} />
             {errors.nom && <div className="invalid-feedback">{errors.nom}</div>}
           </div>
           <div className="form-group">

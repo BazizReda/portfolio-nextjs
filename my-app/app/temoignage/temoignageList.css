@@ -3,6 +3,7 @@
   .contour {
     width: 100%;
    text-align: center;
+
 }
   
   .txt {
@@ -20,6 +21,41 @@
     
   }
   
+  form {
+  margin-top: 20px;
+
+}
+
+.form-group {
+  margin-bottom: 15px;
+  color:aliceblue ;
+
+width: 500px;
+margin-left: 450px; /* hna modification ta3 la case*/
+
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: orange;
+
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+background-color: rgb(142, 142, 142);
+  color: aliceblue;
+}
+
+textarea {
+  height: 150px;
+
+}
   .tst{
   padding: 8px;
   border-bottom: 1px solid orange;
@@ -42,7 +78,7 @@
     color: #fff;
     border-radius: 4px;
     cursor: pointer;
-    margin-left: 500px;
+    margin-left: 650px;
 
 
 
@@ -50,13 +86,13 @@
   
   
   .submit1 {
-    margin-top: 20px;
     padding: 10px 20px;
     background-color: orange;
     color: #fff;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    
    
   }
   .submit2 {
@@ -70,4 +106,10 @@
   }
   .submit1:hover,.submit2:hover  ,.submitt:hover {
     background-color: red;
+  }
+  .success-message {
+    color: rgb(0, 255, 0);
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
   }

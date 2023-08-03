@@ -17,7 +17,7 @@ export const deleteTemoignage = id => ({ type: DELETE_TEMOIGNAGE, payload: { id 
 
 export const getAllTemoignages = (temoignages) => ({ type: LIST_TEMOIGNAGE, payload: temoignages })
 
-export const getTemoignages = id => ({ type: CURRENT_TEMOIGNAGE, payload: { id } })
+export const getTemoignage = id => ({ type: CURRENT_TEMOIGNAGE, payload: { id } })
 
 
 // Le reducteur pour les etudiants

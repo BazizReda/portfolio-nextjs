@@ -7,7 +7,7 @@ const Header = () => {
             <Link className="navbar__link" href='/'>Home</Link>
             <Link className="navbar__link" href='/contact'>Contact</Link>
             <Link className="navbar__link" href='/projets'>Projets</Link>
-            <Link className="navbar__link" href='/temoignage-list'>Temoignage</Link>
+            <Link className="navbar__link" href='/temoignage'>Temoignage</Link>
 
        </header>
     );
