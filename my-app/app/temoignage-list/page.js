@@ -128,9 +128,9 @@ const TemoignageList = () => {
         {temoignages.length ? ( 
             <>
               <div className='home' >
-             <div className='contour' >
+             <div  >
                 <h1 className="txt">Liste des temoignage ajoutes</h1>
-                <table className="contour" >
+                <table className='contour' >
                     <thead className="zest">
                         <tr className="tst">
                             <td>Id</td>
@@ -143,12 +143,12 @@ const TemoignageList = () => {
                     </thead>
                     <tbody>
                         {temoignages.map(temoignage => <tr key={temoignage.id}>
-                            <td>{temoignage.id}</td>
-                            <td>{temoignage.prenom}</td>
-                            <td>{temoignage.nom}</td>
-                            <td>{temoignage.email}</td>
-                            <td>{temoignage.message}</td>
-                            <td><button className='btn btn-primary' onClick={() => goToEdit(temoignage.id)}>Editer</button> <button className='btn btn-danger' onClick={() => supprimer(temoignage.id)}>Supprimer</button></td>
+                            <td className='tst'>{temoignage.id}</td>
+                            <td className='tst'>{temoignage.prenom}</td>
+                            <td className='tst'>{temoignage.nom}</td>
+                            <td className='tst'>{temoignage.email}</td>
+                            <td className='tst'>{temoignage.message}</td>
+                            <td className='tst'><button className='submit1' onClick={() => goToEdit(temoignage.id)}>Editer</button> <button className='submit2' onClick={() => supprimer(temoignage.id)}>Supprimer</button></td>
                         </tr>)}
                     </tbody>
                 </table>

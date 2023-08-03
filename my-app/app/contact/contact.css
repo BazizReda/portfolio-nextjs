@@ -1,34 +1,30 @@
 /* ContactPage.css */
 
-  /*
+  
 .contact-page {
-    background-size:auto;
-    flex-direction: column;
-    align-items: center;
-    bottom: 500px;
-    position: relative;
+   max-width: 800px;
 }
-  */
+  
   .txt1 {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
     text-align: center;
-    margin-right: 150px;
     color: orange;
+    margin-left: 100px;
     
   }
   
   form {
     margin-top: 20px;
+    
   }
   
   .form-group {
     margin-bottom: 15px;
     color:aliceblue ;
-  
-  width: 500px;
-  margin-left: 100px; /* hna modification ta3 la case*/
+  width: 100%;
+  margin-left: 300px; /* hna modification ta3 la case*/
   
   }
   
@@ -61,19 +57,19 @@
     border: none;
     font-size: 16px;
     cursor: pointer;
-    margin-left: 280px;
+    margin-left: 500px;
   border-radius: 5px;
   text-align: center;
   
   }
   
-  .form {
+  .forma {
   height: 500px;
   width: 500px;
   }
   
   
   button:hover {
-    background-color: #000000;
+    background-color: orangered;
   }
   

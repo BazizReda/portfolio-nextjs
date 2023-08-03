@@ -94,7 +94,7 @@ function Contact() {
     <div className="home">
       <div className="contact-page">
         <h1 className="txt1">Contactez-moi</h1>
-        <form className="form" onSubmit={handleSubmit}>
+        <form className="forma" onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="name">Nom :</label>
             <input

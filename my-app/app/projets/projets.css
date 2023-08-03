@@ -110,7 +110,7 @@
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
-    border-radius: 25%;
+    border-radius: 10px;
   }
   .project-image-1:hover {
     transform: scale(1.2); /* Ajustez la valeur selon votre préférence */
