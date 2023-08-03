@@ -1,0 +1,57 @@
+.project-container2 {
+    background-color: rgb(58, 58, 58);
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .project-image-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .project-image2 {
+    width: 600px;
+    height: auto;
+    object-fit: cover;
+    border: 5px solid rgb(255, 208, 0);
+    box-shadow: 0 40px 40px rgba(0, 0, 0, 0.3);
+  }
+  
+  .project-details2 p {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+  }
+  
+  .project-details2 h3 {
+    color: orange;
+    font-size: 30px;
+  }
+  
+  .project-details2 ul li {
+    color: rgb(80, 80, 80);
+  }
+  
+  .technologies-container2 ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .technologies-container2 li {
+    display: inline-block;
+    padding: 5px 5px;
+    background-color: orange;
+    color: #1f1f1f;
+    font-size: 30px;
+    border-radius: 5px;
+  }
+  
+  .project-details2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  

@@ -1,0 +1,97 @@
+
+.image1 {
+    position: fixed;
+    margin-top: 250px;
+    /*margin-left: 500px;*/
+    right: 150px;
+    bottom: 80px;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+
+  }
+  .image1:hover {
+  transform: scale(1.2); /* Ajustez la valeur selon votre préférence */
+}
+
+
+    
+    .para {
+      margin-top: 50px;
+      margin-left: 10px;
+      color: aliceblue;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+      text-align: justify;
+
+      width: 650px;
+      /*animation:typing 4s steps(7),blink-caret 0.75s step-end infinite alternate;*/
+      /*white-space: nowrap;
+      overflow: hidden;
+      /*max-width: none;*/
+      /*opacity:.8;*/
+
+
+
+    }
+   
+    .home{
+      background-color: rgb(58, 58, 58);
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+
+    }
+    html,body{
+      
+      background-color: rgb(58, 58, 58);
+
+    }
+
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 60%;
+      }
+    }
+
+    @keyframes blink-caret {
+      from, to {
+        border-color: transparent;
+      }
+      50% {
+        border-color: orange;
+      }
+    }
+   
+    
+    
+    .titre {
+      color: orange;
+      border-right: 0.15em solid orange;
+
+      overflow: hidden;
+      white-space: nowrap;
+      margin: 0 auto;
+      letter-spacing: 0.05em;
+      animation: typing 6s steps(40, end) infinite ,blink-caret 1s step-end infinite;
+      
+
+
+    }
+    .cv-btn {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: orange;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+     margin-left:20% ;
+    }
+    .cv-btn:hover {
+      background-color: orangered;
+    }
+  
